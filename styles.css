@@ -63,7 +63,6 @@ margin-top: -80px;
     margin-left: -12em;
     width: 11.5em; 
     float: left;
-
 }
 
 
@@ -81,6 +80,7 @@ float: right;
 }
 
 a:link, a:visited {
+    color: black;
 }
 .gray, .gray a:link, .gray a:visited {
     color: grey;
