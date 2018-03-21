@@ -35,36 +35,58 @@ background-image: url(images/header.jpg)
 }
 
 .author {
+    text-align: center;
+    
 }
+
 .author img {
+border: 10px solid rgb(255, 127, 127); 
+border-radius: 50%;
+margin-top: -80px;
+
 }
 .author p {
 }
 
+
 .article {
+    margin: auto;
+    width: 70%;
 }
 .article figure {
+    margin-left: 0;
 }
 .article figure img {
+    width: 90%;
 }
 .article figure figcaption {
+    margin-left: -12em;
+    width: 11.5em; 
+    float: left;
+
 }
+
 
 #map {
 }
 
 #footer {
+    padding: 1em 0 3em 0;
 }
 #footer .back {
+
 }
 #footer .next {
+float: right;
 }
 
 a:link, a:visited {
 }
 .gray, .gray a:link, .gray a:visited {
+    color: grey;
 }
 .white, .white a:link, .white a:visited {
+color: white;
 }
 
 @media only screen and (max-width: 900px) {
