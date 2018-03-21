@@ -10,12 +10,28 @@ body {
 }
 
 #header {
+    text-align: center;
+  /* background-color: blanchedalmond; */
+background-image: url(images/header.jpg)
 }
 #header h2 {
+    font-size: 4em;
+    color: white;
+    margin: 10;
+    padding: 1em, 0; 
+
 }
 #header h3 {
+    font-size: 3em;
+    color: white
+    margin: 0;
+
 }
 #header h4 {
+    font-size: 0,75em;
+    color: white;
+    margin: 0;
+    font-style: italic;
 }
 
 .author {
