@@ -68,6 +68,9 @@ margin-top: -80px;
 
 
 #map {
+    width: 90%;
+    height: 360px;
+    border: 1px solid gray;
 }
 
 #footer {
