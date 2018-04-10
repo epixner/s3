@@ -9,7 +9,7 @@ window.addEventListener("load", function () {
     var div = document.getElementById("map");
     var lat = div.getAttribute("data-lat");
     var lng = div.getAttribute("data-lng");
-    var tit = div.getAttribute("View on Moeraki Boulders");
+    var tit = div.getAttribute("data-title");
 
     // Leaflet Karte im gefundenen DIV erstellen und auf die Koordinate zoomen
     var map = L.map(div).setView([lat, lng], 13);
